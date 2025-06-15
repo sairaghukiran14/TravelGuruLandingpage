@@ -31,8 +31,8 @@ const Workflow = () => {
         </span>
       </h2>
       <div className="flex flex-wrap justify-center">
-        <div className="p-2 w-full lg:w-1/2" style={{display: 'flex', alignContent: 'center'}}>
-          <img src={travelImg} alt="Travel Planning rounded-xl" />
+        <div className="p-2 w-full lg:w-1/2 flex items-center" >
+          <img src={travelImg} alt="Travel Planning" className="rounded-xl"/>
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {travelChecklistItems.map((item, index) => (
